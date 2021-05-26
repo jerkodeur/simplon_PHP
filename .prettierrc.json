@@ -1,0 +1,21 @@
+{
+    "semi": false,
+    "overrides": [
+        {
+            "files": ".prettierrc",
+            "options": { "parser": "json" }
+        },
+        {
+            "files": ["*.css", "*.html", "*.json"],
+            "options": {
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": ["*.html"],
+            "options": {
+                "printWidth": 120
+            }
+        }
+    ]
+}
