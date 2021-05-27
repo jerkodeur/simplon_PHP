@@ -18,13 +18,13 @@
 <?php
 if (isset($_GET['phone'])) {
 ?>
-    <p>Votre numéro : <?= $_GET['phone'] ?></p>
+    <p>Votre numéro : <span class="font-weight-bold"><?= split_string(2, $_GET['phone']) ?></span></p>
 <?php
 }
 ?>
 <div class="d-flex">
     <div><a href="<?= $url . "&page=end" ?> "><button type="button" class="btn btn-secondary">Ne pas être rappelé</button></a></div>
     <div><a href="<?= $url . "&page=recall" ?> "><button type="button" class="btn btn-warning ml-2">Réinitialiser</button></a></div>
-    <a href="<?= $url . "&page=end" ?> role=" button" class="btn btn-success ml-2">Valider</a>
+    <a href="<?= $url . "&page=end" ?>" role="button" class="btn btn-success ml-2 <?php if (!verify_phone($_GET['phone'])) echo "disabled" ?>">Valider</a>
 </div>
 <!-- Validation du numéro de téléphone -->
