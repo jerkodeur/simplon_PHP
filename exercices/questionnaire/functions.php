@@ -14,3 +14,8 @@ function showScore(): void
         }
     }
 }
+
+function remove_last_caract($string)
+{
+    return substr($string, 0, -1);
+}
