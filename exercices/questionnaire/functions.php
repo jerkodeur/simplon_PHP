@@ -13,7 +13,7 @@ function showScore(): void
     }
 }
 
-function remove_last_caract(string|int $param)
+function remove_last_caract(mixed $param)
 {
     return substr($param, 0, -1);
 }
@@ -28,7 +28,7 @@ function split_string(int $num, string|int $string): string
     return remove_last_caract($transform_string);
 }
 
-function verify_phone(int|string $number): bool
+function verify_phone(mixed $number): bool
 {
     return preg_match('/0[0-9]{9}/', $number);
 }
