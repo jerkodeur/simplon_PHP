@@ -1,7 +1,5 @@
 <?php
-$score = $_GET['result'];
-$nbQuestion = $_GET['nb'] + 1;
-$url = "?nb=$nbQuestion&result=";
+$url = "?result=";
 ?>
 
 <!-- Etape 3 : A afficher uniquement une fois que l'étape 2 a été résolue -->

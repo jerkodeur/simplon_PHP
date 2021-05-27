@@ -10,6 +10,10 @@
 
 include('functions.php');
 
+$numQuestion = explode('_', $_GET['page'])[1];
+$nextPage = "question_" . $numQuestion + 1;
+$score = $_GET['result'];
+
 $page = $_GET['page'];
 
 if ($page == 'end') {

@@ -1,8 +1,5 @@
 <?php
-$numQuestion = explode('_', $_GET['page'])[1];
-$nextPage = "question_" . $numQuestion + 1;
-$nbQuestion = 1;
-$url = "?page=$nextPage&nb=$nbQuestion&result=";
+$url = "?page=$nextPage&result=";
 ?>
 
 <!-- Etape 1 : A afficher uniquement une fois que le boutton "Commencer" a été pressé -->
