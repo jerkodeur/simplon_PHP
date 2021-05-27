@@ -14,12 +14,12 @@ $numQuestion = explode('_', $_GET['page'])[1];
 $nextPage = "question_" . $numQuestion + 1;
 $score = $_GET['result'];
 
+// determine which page to display
 $page = $_GET['page'];
 
 if ($page == 'end') {
     $inc = 'layout/end.php';
 } elseif (str_contains($page, 'question')) {
-    $numQuestion = explode('_', $page)[1];
     $inc = "layout/question_" . $numQuestion . ".php";
 } elseif ($page == 'recall') {
     $inc = "layout/not_resolved.php";
