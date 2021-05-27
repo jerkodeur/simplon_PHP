@@ -13,6 +13,7 @@ include('functions.php');
 $numQuestion = explode('_', $_GET['page'])[1];
 $nextPage = "question_" . $numQuestion + 1;
 $score = $_GET['result'];
+$maxPoints = $_GET['max'];
 
 // determine which page to display
 $page = $_GET['page'];

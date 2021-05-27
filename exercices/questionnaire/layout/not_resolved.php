@@ -4,7 +4,7 @@
 <!-- Coder ici un clavier numérique permettant de saisir le numéro de téléphone -->
 <ul>
     <?php
-    $url = "?result=" . $_GET['result'];
+    $url = "?result=" . $_GET['result'] . "&max=" . $_GET['max'];
     for ($i = 0; $i < 10; $i++) {
     ?>
         <li><a href="<?= $url . "&page=recall&phone=" . $_GET['phone'] . $i ?> "><input type="button" value="<?= $i ?>" /></a></li>

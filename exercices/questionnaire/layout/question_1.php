@@ -1,5 +1,5 @@
 <?php
-$url = "?page=$nextPage&result=";
+$url = "?page=$nextPage&max=" . $_GET['max'] + 2 . "&result=";
 ?>
 
 <!-- Etape 1 : A afficher uniquement une fois que le boutton "Commencer" a été pressé -->
