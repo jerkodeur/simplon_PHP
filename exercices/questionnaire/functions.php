@@ -13,9 +13,9 @@ function showScore(): void
     }
 }
 
-function remove_last_caract($string)
+function remove_last_caract(string|int $param)
 {
-    return substr($string, 0, -1);
+    return substr($param, 0, -1);
 }
 
 function split_string(int $num, string|int $string): string

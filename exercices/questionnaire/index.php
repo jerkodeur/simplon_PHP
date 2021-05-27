@@ -27,6 +27,7 @@ if ($page == 'end') {
 } else {
     $inc = 'layout/start.php';
 }
+
 ?>
 
 <!DOCTYPE html>
