@@ -18,7 +18,7 @@ Formation Back-end Php folder
 
 ### Algorithm exercices
 
-`[2021/05/26]`
+`[2021/05/27]`
 _Some exercices to develop algorithmic_
 
 [View results](exercices/test_functions.php)
