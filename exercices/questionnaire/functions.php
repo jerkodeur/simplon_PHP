@@ -28,7 +28,7 @@ function split_string(int $num, string|int $string): string
     return remove_last_caract($transform_string);
 }
 
-function verify_phone(int $num): bool
+function verify_phone(int|string $number): bool
 {
-    return preg_match('/0[0-9]{9}/', $_GET['phone']);
+    return preg_match('/0[0-9]{9}/', $number);
 }
