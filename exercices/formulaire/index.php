@@ -5,7 +5,12 @@ include('functions.php');
 if (!$_POST) {
     $inc = 'layout/form.php';
 } else {
-    $inc = 'layout/validationForm.php';
+    $errors = check_form($_POST);
+    if ($errors !== []) {
+        $inc = 'layout/form.php';
+    } else {
+        $inc = 'layout/validationForm.php';
+    }
 }
 
 ?>
