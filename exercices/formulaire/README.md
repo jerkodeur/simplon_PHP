@@ -15,7 +15,7 @@ connexion au serveur.
 
 ### Fonctionnalités
 
-Les modalités du projet à réaliser se trouve dans le fichier pdf "formulaire" présent dans ce dossier.
+[Voir les modalités du projet](exercices/formulaire/formulaire.pdf)
 
 ### But de l'exercice
 
