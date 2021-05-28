@@ -13,19 +13,20 @@ function showScore(): void
     }
 }
 
-function remove_last_caract(mixed $param)
-{
-    return substr($param, 0, -1);
-}
-
-function split_string(int $num, string|int $string): string
+function split_string(int $num, string|int $string, $caract = '.'): string
 {
     $split = str_split($string, $num);
     $transform_string = "";
     foreach ($split as $chunk) {
-        $transform_string .= "$chunk.";
+        $transform_string .= "$chunk$caract";
     }
     return remove_last_caract($transform_string);
+}
+
+
+function remove_last_caract(mixed $param)
+{
+    return substr($param, 0, -1);
 }
 
 function verify_phone(mixed $number): bool

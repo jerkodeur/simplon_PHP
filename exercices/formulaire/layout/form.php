@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="bs-component">
-            <form method="post" action="layout/valid.php">
+            <form method="post" action="index.php" class="mt-3">
                 <fieldset>
                     <div class="form-group row">
                         <label for="lastname" class="col-sm-2 col-form-label">Nom *</label>
@@ -84,15 +84,19 @@
                             </label>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label for="comment" class="form-label mt-4">Dîtes-nous en plus</label>
+                        <textarea class="form-control" id="comment" rows="3"></textarea>
+                    </div>
                     <fieldset class="form-group mt-4">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="recall" name="recall">
+                            <input class="form-check-input" type="checkbox" value="1" id="recall" name="recall">
                             <label class="form-check-label" for="flexCheckDefault">
                                 J'accepte d'être rapellé
                             </label>
                         </div>
                     </fieldset>
-                    <div class="row text-center">
+                    <div class="row text-center mb-3">
                         <div class="col-12">
                             <button type="submit" class="btn btn-outline-dark m-auto">Envoyer le formulaire</button>
                         </div>

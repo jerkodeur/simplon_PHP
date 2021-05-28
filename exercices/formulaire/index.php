@@ -1,7 +1,11 @@
 <?php
 
-if (!$_GET['page']) {
+include('functions.php');
+
+if (!$_POST) {
     $inc = 'layout/form.php';
+} else {
+    $inc = 'layout/validationForm.php';
 }
 
 ?>
@@ -26,7 +30,7 @@ if (!$_GET['page']) {
 
 <body>
     <div class="container">
-        <h1 class="mb-5">AMAZIN</h1>
+        <h1 class="mb-5 mt-2">AMAZIN</h1>
 
         <h2>Questionnaire de satisfaction</h2>
         <?php
