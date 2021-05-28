@@ -18,14 +18,13 @@ if (!$_POST) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- meta référencement -->
     <meta name="description" content="Web Dev PHP : Conditions, requêtes GET" />
-    <meta name="author" content="Camile Ghastine" />
+    <meta name="author" content="Jérôme Potié" />
 
-    <title>Questionnaire de satisfaction du service client Amazin</title>
+    <title>Formulaire de satisfaction du service client Amazin</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>

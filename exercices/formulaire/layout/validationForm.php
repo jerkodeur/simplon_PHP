@@ -8,9 +8,6 @@ $phone = $_POST['phone'];
     </strong> <?= " " . displayScore($score); ?>
 </p>
 <?php
-if ($_POST['recall'] && $_POST['question_3'] === '-1') {
+if (isset($_POST['recall']) && $_POST['question_3'] === '-1') {
     echo "<p>Nous sommes désolés de ne pas avoir répondu à vos attentes, nous vous rapellerons dès que possible au <b>" . split_string(2, $phone) . "</b></p>";
 }
-// $url = "/exercices/formulaire/index.php?page=recap&score=$score";
-// if () $url = $url . "&phone=$phone";
-// header("Location: $url");
