@@ -14,7 +14,7 @@ Formation Back-end Php folder
 - Write it code neatly
 - Improve the algorithmic
 
-[View folder](/exercices/questionnaire/README.md)
+[View readme file](/exercices/questionnaire/README.md)
 
 ### Algorithm exercices
 
@@ -28,4 +28,4 @@ _Some exercices to develop algorithmic_
 `[2021/05/28]`
 _Experiment forms and data validations_
 
-[View results](exercices/formulaire/README.md)
+[View readme file](exercices/formulaire/README.md)
