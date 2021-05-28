@@ -15,7 +15,7 @@ connexion au serveur.
 
 ### Fonctionnalités
 
-[Voir les modalités du projet](exercices/formulaire/formulaire.pdf)
+[Voir les modalités du projet](formulaire.pdf)
 
 ### But de l'exercice
 

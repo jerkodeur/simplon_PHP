@@ -10,7 +10,7 @@ les exigences du client.
 
 ### Fonctionnalités
 
-[Voir les modalités du projet](exercices/questionnaire/Projet_php_GET.pdf)
+[Voir les modalités du projet](Projet_php_GET.pdf)
 
 ### But de l'exercice
 
