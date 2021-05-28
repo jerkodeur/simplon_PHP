@@ -22,3 +22,10 @@ Formation Back-end Php folder
 _Some exercices to develop algorithmic_
 
 [View results](exercices/test_functions.php)
+
+### Form exercice
+
+`[2021/05/28]`
+_ Experiment forms and data validations_
+
+[View results](exercices/formulaire/README.md)
