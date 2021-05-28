@@ -10,7 +10,7 @@ les exigences du client.
 
 ### Fonctionnalités
 
-Les modalités du projet à rélaliser se trouve dans le fichier pdf "Projet_php_GET" présent dans ce dossier.
+Les modalités du projet à réaliser se trouve dans le fichier pdf "Projet_php_GET" présent dans ce dossier.
 
 ### But de l'exercice
 
