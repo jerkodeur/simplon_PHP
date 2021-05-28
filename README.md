@@ -26,6 +26,6 @@ _Some exercices to develop algorithmic_
 ### Form exercice
 
 `[2021/05/28]`
-_ Experiment forms and data validations_
+_Experiment forms and data validations_
 
 [View results](exercices/formulaire/README.md)
