@@ -1,2 +1,3 @@
 /progressus
 **/*.env
+sql.php
