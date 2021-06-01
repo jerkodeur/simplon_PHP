@@ -1,0 +1,91 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    background-color: rgb(145, 158, 115);
+    border: 1px solid #000;
+    margin: 1em auto;
+    border-radius: 5px;
+}
+
+.title {
+    background-color: rgb(212, 223, 186);
+    padding: 0.1em;
+    border-bottom: 1px solid #000;
+}
+
+.secondary-box {
+    padding: 0.5em;
+    border-bottom: 1px solid #000;
+}
+
+.about-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.2em;
+    padding-left: 1em;
+    background-color: rgb(240, 235, 169);
+}
+
+.list-box {
+    background-color: rgb(37, 34, 16);
+    color: rgb(212, 223, 186);
+    padding-bottom: 1em;
+}
+
+.main-button {
+    margin: 0.25em;
+    padding: 0.25em 0.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.25em;
+    padding-left: 1em;
+}
+
+h2 {
+    padding: 0.5em;
+    color: rgb(231, 217, 24);
+}
+
+.light,
+.light:active,
+.light:visited {
+    color: rgb(145, 158, 115);
+    text-decoration: none;
+}
+
+.light:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.dark,
+.dark:active,
+.dark:visited {
+    color: rgb(37, 34, 16);
+    text-decoration: none;
+}
+
+.dark:hover {
+    color: #000;
+    text-decoration: underline;
+}
