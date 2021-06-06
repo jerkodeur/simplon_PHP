@@ -1,7 +1,3 @@
-<?php
-$score = $_POST['question_1'] + $_POST['question_2'] + $_POST['question_3'];
-$phone = $_POST['phone'];
-?>
 <p class="mt-5">
     <strong class="pr-2">
         Merci pour votre notation:

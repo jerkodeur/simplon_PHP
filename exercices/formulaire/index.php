@@ -1,6 +1,7 @@
 <?php
 
-include('functions.php');
+require 'service/verif_form.php';
+require 'functions.php';
 
 if (!$_POST) {
     $inc = 'layout/form.php';
@@ -9,38 +10,10 @@ if (!$_POST) {
     if ($errors !== []) {
         $inc = 'layout/form.php';
     } else {
+        $score = $_POST['question_1'] + $_POST['question_2'] + $_POST['question_3'];
+        $phone = $_POST['phone'];
         $inc = 'layout/validationForm.php';
     }
 }
 
-?>
-
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- meta référencement -->
-    <meta name="description" content="Web Dev PHP : Conditions, requêtes GET" />
-    <meta name="author" content="Jérôme Potié" />
-
-    <title>Formulaire de satisfaction du service client Amazin</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-</head>
-
-<body>
-    <div class="container">
-        <h1 class="mb-5 mt-2">AMAZIN</h1>
-
-        <h2>Questionnaire de satisfaction</h2>
-        <?php
-        include($inc);
-        ?>
-    </div>
-</body>
-
-</html>
+require 'view/default.php';

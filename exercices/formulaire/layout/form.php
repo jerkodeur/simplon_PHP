@@ -7,7 +7,7 @@
                     <div class="form-group row">
                         <label for="lastname" class="col-sm-2 col-form-label">Nom *</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Entrez votre nom (requis)" value=<?php if (isset($_POST['lastname'])) echo $_POST['lastname'] ?>>
+                            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Entrez votre nom (requis)" required value=<?php if (isset($_POST['lastname'])) echo $_POST['lastname'] ?>>
                             <?php if (isset($errors['lastname'])) { ?>
                                 <div class="invalid-feedback d-block my-2" style="margin-left: .5em"><?= $errors['lastname'] ?></div>
                             <?php } ?>
@@ -17,7 +17,7 @@
                     <div class="form-group row">
                         <label for="firstname" class="col-sm-2 col-form-label">Prénom *</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Entrez votre prénom (requis)" value=<?php if (isset($_POST['firstname'])) echo $_POST['firstname'] ?>>
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Entrez votre prénom (requis)" required value=<?php if (isset($_POST['firstname'])) echo $_POST['firstname'] ?>>
                             <?php if (isset($errors['firstname'])) { ?>
                                 <div class="invalid-feedback d-block my-2" style="margin-left: .5em"><?= $errors['firstname'] ?></div>
                             <?php } ?>
@@ -27,7 +27,7 @@
                     <div class="form-group row">
                         <label for="email" class="col-sm-2 col-form-label">Numéro de téléphone *</label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Entrez votre numéro de téléphone (10 chiffres - requis)" pattern="0[0-9]{9}" value=<?php if (isset($_POST['phone'])) echo $_POST['phone'] ?>>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Entrez votre numéro de téléphone (10 chiffres - requis)" pattern="0[0-9]{9}" required value=<?php if (isset($_POST['phone'])) echo $_POST['phone'] ?>>
                             <?php if (isset($errors['phone'])) { ?>
                                 <div class="invalid-feedback d-block my-2" style="margin-left: .5em"><?= $errors['phone'] ?></div>
                             <?php } ?>
