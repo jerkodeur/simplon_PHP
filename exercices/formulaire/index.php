@@ -16,4 +16,4 @@ if (!$_POST) {
     }
 }
 
-require 'view/default.php';
+require 'layout/default.php';
