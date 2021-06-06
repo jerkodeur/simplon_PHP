@@ -22,7 +22,7 @@
 
         <h2>Questionnaire de satisfaction</h2>
         <?php
-        include($inc);
+        include($page);
         ?>
     </div>
 </body>
